@@ -1,0 +1,59 @@
+
+html {
+    background-color: rgb(217, 240, 240);
+}
+
+h1{
+    text-align: center;
+    color:rgb(40, 3, 51);
+}
+.box{
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    margin: auto;
+    text-align: center;
+}
+#main-image {
+     padding:10px;
+    
+}
+.price-list{
+    display: flex;
+    justify-content: space-around;
+}
+.cart i {
+    color:rgb(76, 141, 130);
+}
+.button-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin:20px;
+  
+}
+.button-container button {
+    color:rgb(220, 220, 230);
+    background-color: rgb(66, 60, 68);
+    padding:10px;
+    margin:8px;
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE */
+@media only screen and (max-width: 700px) {
+     body{
+         font-size: small;
+     }
+     .box{
+        background-color: white;
+        width: 220px;
+        height: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    #main-image {
+        padding:10px;
+         width:190px;
+         height:200px;
+   }
+  }
